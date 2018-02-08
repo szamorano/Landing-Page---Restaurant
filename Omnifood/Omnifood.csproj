@@ -48,6 +48,15 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="SkiaSharp, Version=1.59.0.0, Culture=neutral, PublicKeyToken=0738eb9f132ed756, processorArchitecture=MSIL">
+      <HintPath>..\packages\SkiaSharp.1.59.0\lib\net45\SkiaSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Extended.Iconify, Version=1.59.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\SkiaSharp.Extended.Iconify.1.59.0\lib\portable-net45+win8+wpa81+wp8\SkiaSharp.Extended.Iconify.dll</HintPath>
+    </Reference>
+    <Reference Include="SkiaSharp.Extended.Iconify.IonIcons, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\SkiaSharp.Extended.Iconify.IonIcons.2.0.1\lib\portable-net45+win8+wpa81+wp8\SkiaSharp.Extended.Iconify.IonIcons.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -66,7 +75,32 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Omnifood Contents\Omnifood Contents\.DS_Store" />
+    <Content Include="Omnifood Contents\Omnifood Contents\omnifood-content.docx" />
+    <Content Include="Omnifood Contents\Omnifood Contents\omnifood-content.pages" />
+    <Content Include="Omnifood Contents\Omnifood Contents\omnifood-content.rtf" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._.DS_Store" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._omnifood-content.docx" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._omnifood-content.pages" />
     <None Include="packages.config" />
+    <Content Include="Resources\css\queries.css" />
+    <Content Include="Resources\favicons\android-chrome-192x192.png" />
+    <Content Include="Resources\favicons\android-chrome-256x256.png" />
+    <Content Include="Resources\favicons\apple-touch-icon.png" />
+    <Content Include="Resources\favicons\browserconfig.xml" />
+    <Content Include="Resources\favicons\favicon-16x16.png" />
+    <Content Include="Resources\favicons\favicon-32x32.png" />
+    <Content Include="Resources\favicons\favicon.ico" />
+    <Content Include="Resources\favicons\mstile-150x150.png" />
+    <Content Include="Resources\favicons\safari-pinned-tab.svg" />
+    <Content Include="Vendors\js\gmaps.js" />
+    <Content Include="Resources\js\script.js" />
+    <Content Include="test.js" />
+    <Content Include="Vendors\css\animate.css" />
+    <Content Include="Vendors\fonts\ionicons.eot" />
+    <Content Include="Vendors\fonts\ionicons.ttf" />
+    <Content Include="Vendors\fonts\ionicons.woff" />
+    <Content Include="Resources\favicons\manifest.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,10 +109,89 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Omnifood Contents\Omnifood Contents\1.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\2.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\3.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\4.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\5.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\6.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\7.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\8.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\app-iPhone.png" />
+    <Content Include="Omnifood Contents\Omnifood Contents\back-customers.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\berlin.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\customer-1.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\customer-2.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\customer-3.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\download-app-android.png" />
+    <Content Include="Omnifood Contents\Omnifood Contents\download-app.svg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\hero.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\lisbon-3.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\logo-white.png" />
+    <Content Include="Omnifood Contents\Omnifood Contents\logo.png" />
+    <Content Include="Omnifood Contents\Omnifood Contents\london.jpg" />
+    <Content Include="Omnifood Contents\Omnifood Contents\san-francisco.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._1.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._2.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._3.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._4.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._5.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._6.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._7.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._8.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._app-iPhone.png" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._back-customers.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._berlin.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._customer-1.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._customer-2.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._customer-3.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._download-app-android.png" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._download-app.svg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._hero.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._lisbon-3.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._logo-white.png" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._logo.png" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._london.jpg" />
+    <Content Include="Omnifood Contents\__MACOSX\Omnifood Contents\._san-francisco.jpg" />
+    <Content Include="Resources\css\img\hero.jpg" />
+    <Content Include="Resources\img\1.jpg" />
+    <Content Include="Resources\img\2.jpg" />
+    <Content Include="Resources\img\3.jpg" />
+    <Content Include="Resources\img\4.jpg" />
+    <Content Include="Resources\img\5.jpg" />
+    <Content Include="Resources\img\6.jpg" />
+    <Content Include="Resources\img\7.jpg" />
+    <Content Include="Resources\img\8.jpg" />
+    <Content Include="Resources\img\app-iPhone.png" />
+    <Content Include="Resources\img\back-customers.jpg" />
+    <Content Include="Resources\img\berlin.jpg" />
+    <Content Include="Resources\img\customer-1.jpg" />
+    <Content Include="Resources\img\customer-2.jpg" />
+    <Content Include="Resources\img\customer-3.jpg" />
+    <Content Include="Resources\img\download-app-android.png" />
+    <Content Include="Resources\img\download-app.svg" />
+    <Content Include="Resources\img\hero.jpg" />
+    <Content Include="Resources\img\lisbon-3.jpg" />
+    <Content Include="Resources\img\logo-white.png" />
+    <Content Include="Resources\img\logo.png" />
+    <Content Include="Resources\img\london.jpg" />
+    <Content Include="Resources\img\san-francisco.jpg" />
+    <Content Include="test.css" />
+    <Content Include="Vendors\css\grid.css" />
+    <Content Include="Vendors\css\ionicons.css" />
+    <Content Include="Vendors\css\normalize.css" />
+    <Content Include="index.html" />
+    <Content Include="Resources\css\style.css" />
+    <Content Include="Vendors\fonts\ionicons.svg" />
+    <Content Include="Vendors\js\jquery.waypoints.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="Resources\data\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -111,7 +224,9 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.1.0\build\Microsoft.Net.Compilers.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.7\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\packages\SkiaSharp.1.59.0\build\net45\SkiaSharp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SkiaSharp.1.59.0\build\net45\SkiaSharp.targets'))" />
   </Target>
+  <Import Project="..\packages\SkiaSharp.1.59.0\build\net45\SkiaSharp.targets" Condition="Exists('..\packages\SkiaSharp.1.59.0\build\net45\SkiaSharp.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -101,6 +101,7 @@
     <Content Include="Vendors\fonts\ionicons.ttf" />
     <Content Include="Vendors\fonts\ionicons.woff" />
     <Content Include="Resources\favicons\manifest.json" />
+    <None Include="Properties\PublishProfiles\landingpage-restaurant - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
